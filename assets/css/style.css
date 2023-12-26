@@ -1,0 +1,302 @@
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,200;0,400;1,200&family=DM+Sans:wght@400;500;700&family=Noto+Serif+Display:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Asap:ital,wght@0,200;0,400;1,200&family=DM+Sans:wght@400;500;700&family=Noto+Serif+Armenian:wght@200;300;400&family=Noto+Serif+Display:ital,wght@0,200;0,400;1,200;1,400&display=swap');
+
+
+*{
+    font-family: 'Noto Serif Display', serif;
+}
+
+body{
+    background-color:#2D3037;
+}
+
+a{
+    text-decoration: none;
+}
+
+p{
+    line-height: 25px;
+    color: #E4E2D9;
+}
+
+
+/* navbar */
+
+.colornav{
+    background-color: #EAE0D5; 
+}
+
+.textonav{
+    color: #905B3C; 
+}
+
+.textonav:hover{
+    color: #C9997E;
+}
+
+/* carrusel */
+
+.carrusel{
+    height: 480px;
+}
+
+.imgcarru{
+    height: 100%;
+    object-fit:contain;
+    filter: brightness(0.9);
+}
+
+/* Seccion de categoria */
+ 
+.index-category{
+    width: 100%;
+    padding: 60px 0;
+    background-color: #2D3037;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.index-category p{
+    color: #E4E2D9;
+    text-align: center;
+    padding-bottom: 40px;
+    flex-basis: 100%;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.index-category-box{
+    width: 180px;
+    height: 180px;
+    background-color: #8C705F;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+.index-category-box:nth-child(2){
+    background-image: url(../img/mamas.JPG);
+}
+
+.index-category-box:nth-child(3){
+    background-image: url(../img/nariz.JPG);
+}
+
+.index-category-box:nth-child(4){
+    background-image: url(../img/cuerpo.JPG);
+}
+
+.index-category-box:nth-child(5){
+    background-image: url(../img/labios.JPG);
+}
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #6D7588;
+    opacity: 0.3;
+    transition: all ease-in-out 200ms;
+}
+
+.index-category-box:hover .dark-overlay{
+    opacity: 0;
+}
+
+.index-category-box h3{
+    font-size: 22px;
+    line-height: 28px;
+    color: #E4E2D9;
+    z-index: 100;
+    font-family: 'Noto Serif Armenian', serif;
+    text-shadow: -2px 2px 4px #8C705F;
+}
+
+/* card */
+/* ASI SE ALINEA EL CONTENEDOR! Como está abajo! */
+.todobst{
+    display: flex;
+    flex-direction: column;
+    background-color: #2D3037;
+    align-items:center;
+    justify-content: center;
+    padding: 25px;
+    margin-top: 25px;
+}
+
+.containerbts{
+    display: flex;
+    flex-direction: row;
+    align-items:center;
+    justify-content: center;
+    background-color: #2D3037;
+    margin: 15px;
+}
+
+.imagenbst{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center; 
+}
+
+.imagenbst img{
+    width: 380px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 15px;
+    padding-right: 10px;
+}
+
+.textobst h2{
+    font-size: 28px;
+    color: #E4E2D9;
+    text-align: center;
+}
+
+.textobst p{
+    padding: 20px 0;
+}
+
+.abst a{
+    margin: 30px;
+    color: #8C705F;
+    font-family: 'Noto Serif Armenian', serif; 
+    font-size: 18px;
+    height: 30px;
+    line-height: 30px;
+    background-color: #E5E5DC;
+    padding: 0 12px;
+    width: fit-content;
+    border-radius: 6px;
+    column-gap: 5px;
+}
+
+.boton{
+    background-color: #8C705F;
+    color: #E4E2D9;
+    font-family: 'Noto Serif Armenian', serif;
+}
+
+.boton-general{
+    background-color: #8C705F;
+}
+
+.cada-boton{
+    color: #E4E2D9;
+    font-family: 'Noto Serif Armenian', serif;
+}
+
+/* COMIENZO FOOTER */
+
+.foot{
+    background-color: #2D3037;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+
+.footer-container{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: violet;
+    padding: 20px;
+}
+
+.footer-div{ 
+    color: #E4E2D9;
+    background-color: red;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.footer-div a{
+    color: #E4E2D9;
+    font-family: 'Noto Serif Armenian', serif;
+}
+
+/* Seccion de categoria */
+ 
+.index-categori{
+    width: 100%;
+    padding: 60px 0;
+    background-color: #2D3037;
+    display: flex;
+    justify-content: center;
+    column-gap: 25px;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.index-categori p{
+    color: #E4E2D9;
+    text-align: center;
+    padding-bottom: 40px;
+    flex-basis: 100%;
+    text-transform: uppercase;
+    font-size: 22px;
+}
+
+.index-categori-box{
+    width: 300px;
+    height: 300px;
+    background-color: #8C705F;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    margin-top: 40px;
+}
+
+.index-categori-box:nth-child(2){
+    background-image: url(../img/IMG_1860.jpg);
+}
+
+.index-categori-box:nth-child(3){
+    background-image: url(../img/IMG_1857.jpg);
+}
+
+.index-categori-box:nth-child(4){
+    background-image: url(../img/IMG_1858.jpg);
+}
+
+.dark-overlay{
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    background-color: #6D7588;
+    opacity: 0.3;
+    transition: all ease-in-out 200ms;
+}
+
+.index-categori-box:hover .dark-overlay{
+    opacity: 0;
+}
+
+.index-categori-box h3{
+    font-size: 22px;
+    line-height: 28px;
+    color: #E4E2D9;
+    z-index: 100;
+    font-family: 'Noto Serif Armenian', serif;
+    text-shadow: -2px 2px 4px #8C705F;
+}
