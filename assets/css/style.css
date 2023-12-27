@@ -5,10 +5,13 @@
 
 *{
     font-family: 'Noto Serif Display', serif;
+    /* border: solid 2px red; */
+    /* box-sizing: border-box; */
 }
 
 body{
-    background-color:#2D3037;
+    background-color: #2D3037;
+    /* 2D3037 */
 }
 
 a{
@@ -22,6 +25,10 @@ p{
 
 
 /* navbar */
+
+/* .navcontainer{
+    max-width: 100%;
+} */
 
 .colornav{
     background-color: #EAE0D5; 
@@ -95,7 +102,7 @@ p{
 }
 
 .index-category-box:nth-child(5){
-    background-image: url(../img/labios.JPG);
+    background-image: url(../img/IMG_1874.JPG);
 }
 
 .dark-overlay{
@@ -130,8 +137,8 @@ p{
     background-color: #2D3037;
     align-items:center;
     justify-content: center;
-    padding: 25px;
-    margin-top: 25px;
+    /* padding: 25px; */
+    margin-top: 75px;
 }
 
 .containerbts{
@@ -140,7 +147,7 @@ p{
     align-items:center;
     justify-content: center;
     background-color: #2D3037;
-    margin: 15px;
+    /* margin: 15px; */
 }
 
 .imagenbst{
@@ -151,13 +158,13 @@ p{
 }
 
 .imagenbst img{
-    width: 380px;
+    max-width: 380px;
     display: flex;
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    margin-bottom: 15px;
-    padding-right: 10px;
+    /* margin-bottom: 15px;
+    padding-right: 10px; */
 }
 
 .textobst h2{
@@ -209,7 +216,7 @@ p{
 }
 
 .footer-container{
-    width: 100%;
+    max-width: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -233,7 +240,7 @@ p{
 /* Seccion de categoria */
  
 .index-categori{
-    width: 100%;
+    max-width: 100%;
     padding: 60px 0;
     background-color: #2D3037;
     display: flex;
